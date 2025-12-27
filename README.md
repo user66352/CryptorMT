@@ -89,7 +89,7 @@ Encrypting a file with a keyfile:
 
 Compress and encrypt a file:
 
-`gzip -c alice\_in\_wonderland.txt | cryptormt -p 1234 > alice.gz.cpt`  
+`gzip -c alice_in_wonderland.txt | cryptormt -p 1234 > alice.gz.cpt`  
 
 To Decrypt a file:  
 
