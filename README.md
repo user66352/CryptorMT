@@ -14,7 +14,6 @@ Why not.
 I don’t think that the 2nd point is a counter argument in all cases.  
 Especially if an attacker already knows that the stream in front of him contains encrypted data, deniability is probably not a concern at this point.  
 Remains the fact that the MT generator state can be calculated with enough generated bits becoming available.  
-So I had the “genius” idea to even encrypt the stream-cipher used for encryption.  
 Therefore CryptorMT uses 2 MT generators creating 2 independent cipher streams which than are xor`ed together into the final cipher used to encrypt the plain text.  
 If the encryption cipher is partially revealed, for example if parts of the plain text are known, the attacker is left with a cipher sequence that does not represent any of the actual MT output.  
 Thats not an efficient approach to secure the generator state of the PRNG but efficiency is not the goal of that project.  
