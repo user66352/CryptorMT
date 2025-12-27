@@ -2,6 +2,8 @@
 
 CryptorMT aims to enable the long period (2^19937-1) of Mersenne Twister as a viable option for cryptography.  
 
+This is the initial release (ver. 0.3) so bugs can be expected.  
+
 
 ## Thoughts  
 
