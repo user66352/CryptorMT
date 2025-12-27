@@ -77,13 +77,13 @@ But in- and outfile can be explicetly named.
 
 Encrypting a file with a password:  
 
-`cryptormt -p 1234567890 -i alice\_in\_wonderland.txt -o alice\_in\_wonderland.txt.cpt`  
-`cat alice\_in\_wonderland.txt | cryptormt -p 1234567890 > alice\_in\_wonderland.txt.cpt`  
-`cryptormt -p 1234567890 < alice\_in\_wonderland.txt > alice.txt.cpt`  
+`cryptormt -p 1234567890 -i alice_in_wonderland.txt -o alice_in_wonderland.txt.cpt`  
+`cat alice_in_wonderland.txt | cryptormt -p 1234567890 > alice_in_wonderland.txt.cpt`  
+`cryptormt -p 1234567890 < alice_in_wonderland.txt > alice.txt.cpt`  
 
 Encrypting a file with a keyfile: 
 
-`cat alice\_in\_wonderland.txt | cryptormt -k keyfile > alice\_in\_wonderland.txt.cpt`  
+`cat alice_in_wonderland.txt | cryptormt -k keyfile > alice_in_wonderland.txt.cpt`  
 
 Compress and encrypt a file:
 
